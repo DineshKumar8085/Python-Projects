@@ -43,27 +43,10 @@ This tool is useful for:
 | Analysis | Custom classifiers & counters |
 | OS | Linux (Monitor mode supported) |
 
-## Directory Structure
-
-wifi-packet-sniffer-analyzer/
-│
-├── src/
-│   ├── packet_capture.py              # Entry point – initializes sniffer and orchestrates modules
-│   ├── packet_classifier.py            # WiFi frame type/subtype classifier
-│   ├── main.py                              # Extracts MAC, SSID, RSSI, channel, etc.
-│   ├── field_extractor.py               # Aggregators: packet counts, type counts, stats
-│   ├── counters_aggregators.py  # CSV & PCAP logging module
-│   └── storage_logger.py             # Helper functions
-│
-├── logs/                                       # Auto-generated CSV and PCAP logs
-│
-├── requirements.txt                    # Python dependencies
-│
-└── README.md                        # Project documentation
-
 ## Getting Started
 
 ### 1) Clone the Repository
+git clone git@github.com:DineshKumar8085/Python-Projects.git
 
 ### 2) Create a Virtual Environment
 
